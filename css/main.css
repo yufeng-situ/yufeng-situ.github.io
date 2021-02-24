@@ -1,11 +1,5 @@
 
 
-.container{
-  border: 10px solid rgba(30,40,100);
-  width: 1920;
-  height: auto;
-}
-
 
 h1 {
   font-family: Helvatica, sans-serif;
@@ -16,8 +10,119 @@ h1 {
 }
 
 
-img {width: auto;
-  height: 988px;
-
+body {
+  background-image: url('pallarax-chika-dance.png');
+  background-repeat: no-repeat;
+  background-attachment: auto;
+  background-size: cover;
 }
 
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FF6F61;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #EFC050;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn3 {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #45B8AC;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn4 {
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #5B5EA6;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn5 {
+  position: absolute;
+  top: 50%;
+  left: 130%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #B565A7;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.container .btn2:hover {
+  background-color: black;
+}
+
+.container .btn3:hover {
+  background-color: black;
+}
+
+.container .btn4:hover {
+  background-color: black;
+}
+
+.container .btn5:hover {
+  background-color: black;
+}
