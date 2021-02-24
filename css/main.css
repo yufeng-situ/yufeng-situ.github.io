@@ -1,0 +1,23 @@
+
+
+.container{
+  border: 10px solid rgba(30,40,100);
+  width: 1920;
+  height: auto;
+}
+
+
+h1 {
+  font-family: Helvatica, sans-serif;
+  text-align: center; 
+  color: rgb(30,40,100);
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+
+img {width: auto;
+  height: 988px;
+
+}
+
