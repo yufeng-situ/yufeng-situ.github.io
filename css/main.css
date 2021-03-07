@@ -11,7 +11,7 @@ h1 {
 
 
 body {
-  background-image: url('pallarax-chika-dance.png');
+  background-image: url("pallarax-chika-dance.png");
   background-repeat: no-repeat;
   background-attachment: auto;
   background-size: cover;
@@ -19,8 +19,14 @@ body {
 
 /* Container needed to position the button. Adjust the width as needed */
 .container {
-  position: relative;
-  width: 50%;
+  position: absolute;
+  top:0;
+  background: rgba(52, 86, 139, 20%); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 /* Make the image responsive */
@@ -108,21 +114,21 @@ body {
 
 
 .container .btn:hover {
-  background-color: black;
+  background-color: #ADADAD;
 }
 
 .container .btn2:hover {
-  background-color: black;
+  background-color: #ADADAD;
 }
 
 .container .btn3:hover {
-  background-color: black;
+  background-color: #ADADAD;
 }
 
 .container .btn4:hover {
-  background-color: black;
+  background-color: #ADADAD;
 }
 
 .container .btn5:hover {
-  background-color: black;
+  background-color: #ADADAD;
 }

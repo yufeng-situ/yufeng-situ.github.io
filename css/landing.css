@@ -1,0 +1,51 @@
+
+h1{
+  color: hsl(240, 100%, 95%);
+  font-family: Fredoka One;
+
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top:0;
+  background: rgba(52, 86, 139, 20%); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+
+
+}
+
+/* Style the button used to pause/play the video */
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: none;
+  background: rgb(52, 86, 139);
+  color: hsl(240, 100%, 95%);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Fredoka One;
+  border-radius: 5px;
+}
+
+.myBtn:hover {
+  background: hsl(240, 100%, 95%);
+  color: rgb(52, 86, 139);
+}
