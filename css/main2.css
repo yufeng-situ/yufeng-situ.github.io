@@ -10,6 +10,8 @@ body {
 /* Container needed to position the button. Adjust the width as needed */
 .container {
   position: absolute;
+  top:0;
+  left:0;
   height: 100%;
   background: rgba(52, 86, 139, 20%); 
   color: #f1f1f1;
@@ -35,10 +37,12 @@ body {
   background-color: #FF6F61;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 12px 40px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: Fredoka One;
 }
 
 .btn2 {
@@ -50,10 +54,12 @@ body {
   background-color: #EFC050;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 12px 40px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: Fredoka One;
 }
 
  .btn3 {
@@ -65,10 +71,12 @@ body {
   background-color: #45B8AC;
   color: white;
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 12px 40px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: Fredoka One;
 }
 
 .btn4 {
@@ -84,6 +92,8 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: Fredoka One;
 }
 
 .btn5 {
@@ -99,6 +109,8 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: Fredoka One;
 }
 
 

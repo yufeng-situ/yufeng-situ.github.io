@@ -19,14 +19,13 @@ h1{
 .content {
   position: absolute;
   top:0;
+  left:0;
   background: rgba(52, 86, 139, 20%); 
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
   padding-bottom: 40px;
   text-align: center;
-
-
 }
 
 /* Style the button used to pause/play the video */
