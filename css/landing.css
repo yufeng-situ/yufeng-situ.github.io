@@ -1,6 +1,6 @@
 
 h1{
-  color: hsl(240, 100%, 95%);
+  color: #f3e7ff;
   font-family: Fredoka One;
 
 
@@ -37,7 +37,7 @@ h1{
   padding-left: 40px;
   border: none;
   background: rgb(52, 86, 139);
-  color: hsl(240, 100%, 95%);
+  color: #f3e7ff;
   cursor: pointer;
   text-decoration: none;
   font-family: Fredoka One;
@@ -45,6 +45,6 @@ h1{
 }
 
 .myBtn:hover {
-  background: hsl(240, 100%, 95%);
+  background: #f3e7ff;
   color: rgb(52, 86, 139);
 }

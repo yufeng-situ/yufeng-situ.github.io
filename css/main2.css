@@ -5,6 +5,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: auto;
   background-size: cover;
+  font-family: Fredoka One;
+  font-size:30px;
+  
+}
+
+p{
+  color: #f3e7ff;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -30,7 +37,7 @@ body {
 /* Style the button and place it in the middle of the container/image */
 .btn {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -47,7 +54,7 @@ body {
 
 .btn2 {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -64,7 +71,7 @@ body {
 
  .btn3 {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
