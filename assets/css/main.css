@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 
@@ -208,8 +208,9 @@
 
 	}
 
-/* Grid */
 
+/* Grid */
+/*
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1540,8 +1541,9 @@
 		}
 
 	}
+*/
 
-/* Basic */
+/* Basic 
 
 	@-ms-viewport {
 		width: device-width;
@@ -1573,7 +1575,7 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+*/
 /* Type */
 
 	html {
@@ -1807,7 +1809,7 @@
 		border-bottom-color: rgba(144, 144, 144, 0.25);
 	}
 
-/* Box */
+/* Box 
 
 	.box {
 		margin-bottom: 2rem;
@@ -1874,8 +1876,8 @@
 	.box {
 		border-color: rgba(144, 144, 144, 0.25);
 	}
-
-/* Button */
+*/
+/* Button 
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2058,8 +2060,8 @@
 			.button.special:active {
 				background-color: #4b924b;
 			}
-
-/* Form */
+*/
+/* Form 
 
 	form {
 		margin: 0 0 2rem 0;
@@ -2296,8 +2298,8 @@
 	.formerize-placeholder {
 		color: #bbb !important;
 	}
-
-/* Gallery */
+*/
+/* Gallery 
 
 	.gallery {
 		width: 100%;
@@ -2342,8 +2344,8 @@
 			}
 
 		}
-
-/* Icon */
+*/
+/* Icon 
 
 	.icon {
 		text-decoration: none;
@@ -2363,7 +2365,7 @@
 		.icon > .label {
 			display: none;
 		}
-
+*/
 /* Image */
 
 	.image {
@@ -2801,7 +2803,7 @@
 
 		}
 
-/* Table */
+/* Table 
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -2887,6 +2889,7 @@
 	table.alt tbody tr td {
 		border-color: rgba(144, 144, 144, 0.25);
 	}
+*/
 
 /* Header */
 
@@ -3134,7 +3137,7 @@
 
 		}
 
-/* Footer */
+/* Footer 
 
 	#footer {
 		padding: 2rem 0 0.1rem 0 ;
@@ -3164,3 +3167,6 @@
 			}
 
 		}
+
+*/
+
